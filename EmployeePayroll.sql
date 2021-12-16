@@ -10,5 +10,3 @@ INSERT INTO employee_Payrolll (name, salary, start) Values
 ( 'Abhi', 2000000.00, '2019-11-14' ),
 ( 'Parth', 300000.00, '2018-05-15' );
 
-select * from employee_Payrolll
-
