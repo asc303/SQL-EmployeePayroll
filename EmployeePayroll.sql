@@ -12,3 +12,7 @@ INSERT INTO employee_Payrolll (name, salary, start) Values
 
 select * from employee_Payrolll
 
+SELECT name,salary from employee_Payrolll WHERE name = 'Ashu'
+select * from employee_Payrolll
+WHERE start BETWEEN CAST('2021-01-21' AS DATE) AND GETDATE();
+
