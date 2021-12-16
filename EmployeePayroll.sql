@@ -39,3 +39,15 @@ update employee_Payrolll set Department = 'MARKETING' where name = 'Abhi';
 update employee_Payrolll set Department = 'PRODUCTION' where name = 'Parth';
 select * from employee_Payrolll
 
+Alter Table employee_Payrolll Add Basic_Pay int;
+Alter Table employee_Payrolll Add Deductions int;
+Alter Table employee_Payrolll Add Taxable_Pay int;
+Alter Table employee_Payrolll Add Income_Tax int;
+Alter Table employee_Payrolll Add Net_Pay int;
+update employee_Payrolll set Basic_Pay = '9000000' where name = 'Ashu';
+update employee_Payrolll set Basic_Pay = '90000' where name = 'Abhi';
+update employee_Payrolll set Basic_Pay = '29000' where name = 'Parth';
+update employee_Payrolll set Deductions = '5638' where name = 'Abhi';
+update employee_Payrolll set Taxable_Pay = '1234' where name = 'Parth';
+update employee_Payrolll set Income_Tax = '9153' where name = 'Ashu';
+update employee_Payrolll set Net_Pay = '1539' where name = 'Ashu';
