@@ -22,3 +22,12 @@ update employee_Payrolll set gender = 'M' where name = 'Ashu' or name = 'Parth';
 update employee_Payrolll set salary = 900000.00 where name = 'Abhi';
 select * from employee_Payrolll
 
+SELECT AVG(salary) FROM employee_Payrolll WHERE gender = 'M' GROUP BY gender;
+SELECT AVG(salary) FROM employee_Payrolll WHERE gender = 'F' GROUP BY gender;
+SELECT SUM(salary) FROM employee_Payrolll WHERE gender = 'M' GROUP BY gender;
+SELECT SUM(salary) FROM employee_Payrolll WHERE gender = 'F' GROUP BY gender;
+SELECT MIN(salary) FROM employee_Payrolll WHERE gender = 'M' GROUP BY gender;
+SELECT MIN(salary) FROM employee_Payrolll WHERE gender = 'F' GROUP BY gender;
+SELECT MAX(salary) FROM employee_Payrolll WHERE gender = 'M' GROUP BY gender;
+SELECT MAX(salary) FROM employee_Payrolll WHERE gender = 'F' GROUP BY gender;
+
